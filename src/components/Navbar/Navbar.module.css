@@ -1,0 +1,11 @@
+/* We use Navbar.module to avoid conflict and module create unique id for each class to avoid conflict*/
+
+.navbar {
+    display: flex;
+    height: 74px;
+    width: 100vw;
+    padding: 0px 32px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-primary);
+}

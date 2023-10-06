@@ -1,0 +1,24 @@
+/* root: technique to reclare global variable and it can be accessed at any point and anywhere */
+/* If we need to change the coloer of all primary elements, we can change only here and not at all places */
+:root {
+  --color-primary: #34c94b;
+  --color-black: #121212;
+  --color-white:#fff;
+}
+
+*,*::before,*::after {
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+}
+body{
+  background-color: var(--color-black);
+  font-family: "Poppins",sans-serif;
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+
+
+
