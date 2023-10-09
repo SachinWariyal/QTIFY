@@ -3,7 +3,7 @@ import styles from "./Button.module.css"
 const Button = ({children}) => {
   return (
     <div className={styles.btn}>
-      {children}
+      {children} 
     </div>
   )
 }
