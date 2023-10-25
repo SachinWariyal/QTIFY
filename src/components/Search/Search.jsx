@@ -10,7 +10,7 @@ const Search = ({ placeholder }) => {
         <SearchIcon />
       </button>
     </form>
-  );
+  );  
 };
 
 export default Search;
