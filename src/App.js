@@ -38,7 +38,7 @@ function App() {
   }
   useEffect(()=>{
     generateSongsData(value);
-  },[value])
+  },)
 
   const generateData = async () => {
     try{
