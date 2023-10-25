@@ -7,6 +7,7 @@ import styles from "./Search.module.css";
 export default function Search1({ data }) {
   const [val, setVal] = useState(null);
   const changeHandler = (e) => {
+    console.log(val);
     setVal(e.target.value);
   };
   const clickHandler = () => {};
